@@ -99,16 +99,19 @@ Assign Roles: Compliance Administrator role, Information Protection Administrato
 
 Use fictional cloud-only accounts:
 
-| Demo role | Example account |
+| Demo role | Demo account |
 |---|---|
-| MEAL Manager | `mealmanager@YOURTENANT.onmicrosoft.com` |
-| MEAL Officer | `mealofficer@YOURTENANT.onmicrosoft.com` |
-| Child Protection Manager | `cpmanager@YOURTENANT.onmicrosoft.com` |
-| Finance Manager | `financemanager@YOURTENANT.onmicrosoft.com` |
-| Field Officer | `field01@YOURTENANT.onmicrosoft.com` |
+| MEAL Manager | `mealmanager@YOURTENANT.org` |
+| MEAL Officer | `mealofficer@YOURTENANT.org` |
+| Child Protection Manager | `cpmanager@YOURTENANT.org` |
+| Finance Manager | `financemanager@YOURTENANT.org` |
+| Field Officer | `field01@YOURTENANT.org` |
 
-Replace `YOURTENANT` with the actual developer tenant name.
+Replace `YOURTENANT` with the actual tenant name.
 
 Assign the Microsoft 365 E5 Developer license to each account.
+
+<img width="643" height="456" alt="image" src="https://github.com/user-attachments/assets/ebc3e561-d44e-4818-a0c1-8893e8627e1e" />
+
 
 
