@@ -111,7 +111,125 @@ Replace `YOURTENANT` with the actual tenant name.
 
 Assign the Microsoft 365 E5 Developer license to each account.
 
-<img width="643" height="456" alt="image" src="https://github.com/user-attachments/assets/ebc3e561-d44e-4818-a0c1-8893e8627e1e" />
+<img width="416" height="449" alt="image" src="https://github.com/user-attachments/assets/5c645ca3-4eb2-41fd-b21e-c46ff94fe63f" />
+
+
+## Step 4: Create the security groups
+
+Open:
+
+```text
+Microsoft Entra admin center
+→ Identity
+→ Groups
+→ All groups
+→ New group
+```
+
+Use:
+
+```text
+Group type: Security
+Membership type: Assigned
+```
+
+Create these groups:
+
+| Security group | Members | Purpose |
+|---|---|---|
+| `A-Purview-Pilot-Users` | All five pilot users | Receives the pilot sensitivity-label policy |
+| `A-MEAL-Team` | MEAL Manager and MEAL Officer | Access to confidential program and MEAL information |
+| `A-Child-Protection` | Child Protection Manager | Access to highly confidential child-protection information |
+| `A-Finance-Team` | Finance Manager | Access to finance and donor information |
+| `A-Data-Protection` | Purview Lab Administrator | Data-protection review and incident investigation |
+
+<img width="802" height="369" alt="image" src="https://github.com/user-attachments/assets/1e6e6862-55cd-455b-9150-f948e5585b8b" />
+
+
+These groups will later control who can open files labeled **Confidential** and **Highly Confidential**.
+
+## Step 5: Create the SharePoint demo site
+
+Open:
+
+```text
+SharePoint admin center
+→ Active sites
+→ Create
+→ Team site
+```
+
+Configure:
+
+```text
+Site name: INGO Data Protection Demo
+Site address: /sites/INGODataProtectionDemo
+Privacy: Private
+Owner: Purview Lab Administrator
+External sharing: Disabled during the initial pilot
+```
+<img width="514" height="467" alt="image" src="https://github.com/user-attachments/assets/4e99d41a-04f1-478f-9279-6a02682d1766" />
+<img width="277" height="295" alt="image" src="https://github.com/user-attachments/assets/38f24b7f-0327-4316-b825-fa4b45ce08b9" />
+<img width="266" height="353" alt="image" src="https://github.com/user-attachments/assets/9f46ef09-6b32-4277-af20-376d83673ff3" />
+
+## Step 6: Create the document libraries
+
+Create:
+
+```text
+01-Publications
+02-Internal-Operations
+03-Program-Confidential
+04-Finance-Confidential
+05-Child-Protection-Restricted
+```
+
+<img width="880" height="383" alt="image" src="https://github.com/user-attachments/assets/4b8bcf19-0fe6-4f3c-9030-b67cac2b2381" />
+
+### Recommended access model
+
+| Library | Authorized access Group |
+|---|---|
+| `01-Publications` | `A-Purview-Pilot-Users` |
+| `02-Internal-Operations` | `A-Purview-Pilot-Users` |
+| `03-Program-Confidential` | `A-MEAL-Team` |
+| `04-Finance-Confidential` | `A-Finance-Team` |
+| `05-Child-Protection-Restricted` | `A-Child-Protection` and `A-Data-Protection` |
+
+```text
+01-Publications Access Group
+```
+<img width="766" height="425" alt="image" src="https://github.com/user-attachments/assets/f3456fd1-655a-49b0-8bd4-fbd04d89ca59" />
+
+<img width="782" height="421" alt="image" src="https://github.com/user-attachments/assets/b51c8132-f60d-4480-b6dd-5fbb8b149cfd" />
+
+```text
+02-Internal-Operations Access Group
+```
+<img width="779" height="428" alt="image" src="https://github.com/user-attachments/assets/1e322aec-663d-4a45-ae52-596374e2551c" />
+<img width="750" height="403" alt="image" src="https://github.com/user-attachments/assets/e1ab484e-edbc-4f73-b873-da426c7c84bd" />
+
+For Confidential libraries, stop permission inheritance and remove the general pilot group before granting the relevant departmental group access.
+
+```text
+03-Program-Confidential Access Group
+```
+<img width="763" height="433" alt="image" src="https://github.com/user-attachments/assets/ad886b81-b7de-46bb-8b49-c53ceea21e13" />
+<img width="699" height="325" alt="image" src="https://github.com/user-attachments/assets/d7906d72-5eed-4919-838d-b1680557a5af" />
+
+```text
+04-Finance-Confidential Access Group
+```
+<img width="757" height="429" alt="image" src="https://github.com/user-attachments/assets/c633a40a-9704-4aaf-a282-87c9dd5c05f9" />
+<img width="743" height="380" alt="image" src="https://github.com/user-attachments/assets/131c278f-5be8-4d3d-a11f-ad715e5a1f3e" />
+
+```text
+05-Child-Protection-Restricted Access Group
+```
+<img width="766" height="428" alt="image" src="https://github.com/user-attachments/assets/bc2af734-12fc-42c0-a891-2e4f0932458a" />
+<img width="723" height="353" alt="image" src="https://github.com/user-attachments/assets/c1f41d1f-d227-4b1b-9a01-d7b5ef23bf85" />
+
+
 
 
 
