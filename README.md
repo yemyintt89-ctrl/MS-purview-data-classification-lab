@@ -31,21 +31,45 @@ The project is designed as a **technical portfolio lab** and a **client demonstr
 - SharePoint Online and Exchange Online provisioned
 - Fictional demo identities and synthetic data
 
+## Lab architecture
+
+```text
+Microsoft Entra ID Group
+├── A-Purview-Pilot-Users
+├── A-MEAL-Team
+├── A-Finance-Team
+├── A-Child-Protection
+└── A-Data-Protection
+            |
+            v
+SharePoint Online
+├── Publications libaray
+├── Internal Operations library
+├── Program Confidential library
+├── Finance Confidential library
+└── Child Protection Restricted library
+            |
+            v
+Microsoft Purview Information Protection
+├── INGO - Public
+├── INGO - Internal
+├── INGO - Confidential
+└── INGO - Highly Confidential
+```
+
 # Core design principle
 
 ```text
-SharePoint permissions
-Protect the storage location
+SharePoint permissions (Protect the storage location)
               +
-Sensitivity-label encryption
-Protects supported files after download or movement
+Sensitivity-label encryption (Protects supported files after download or movement)
 ```
 
 Both controls are required. A restricted SharePoint library alone does not provide persistent file protection after an authorized user downloads a document.
 
-## Classification model
+## Data Classification model
 
-| Classification | Typical INGO information | Protection intent |
+| Classification | Typical information | Protection intent |
 |---|---|---|
 | **Public** | Published reports, vacancies, approved press releases | Visible marking; no encryption |
 | **Internal** | Policies, procedures, templates, ordinary meeting notes | Internal marking; no encryption in the pilot |
@@ -73,7 +97,7 @@ Available licenses: At least 6
 
 ## Step 2: Create a dedicated Purview administrator
 
-Do not use the Global Administrator account for routine lab work.
+Do not use the Global Administrator account for Purview configurations.
 
 Create:
 
@@ -247,6 +271,47 @@ Create the following demonstration files and upload in respective libraries:
 <img width="479" height="254" alt="image" src="https://github.com/user-attachments/assets/836b0e82-9cc5-40f8-b9df-b2348bac0e12" />
 <img width="477" height="253" alt="image" src="https://github.com/user-attachments/assets/847f0878-f734-4a49-8d26-1e20f2a3bb58" />
 
+## Validation tests
+
+### Field Officer
+Expected access:
+```text
+01-Publications: Allowed
+02-Internal-Operations: Allowed
+03-Program-Confidential: Denied
+04-Finance-Confidential: Denied
+05-Child-Protection-Restricted: Denied
+```
+
+### MEAL Officer
+Expected access:
+```text
+01-Publications: Allowed
+02-Internal-Operations: Allowed
+03-Program-Confidential: Allowed
+04-Finance-Confidential: Denied
+05-Child-Protection-Restricted: Denied
+```
+
+### Finance Manager
+Expected access:
+```text
+01-Publications: Allowed
+02-Internal-Operations: Allowed
+03-Program-Confidential: Denied
+04-Finance-Confidential: Allowed
+05-Child-Protection-Restricted: Denied
+```
+
+### Child Protection Manager
+Expected access:
+```text
+01-Publications: Allowed
+02-Internal-Operations: Allowed
+03-Program-Confidential: Denied
+04-Finance-Confidential: Denied
+05-Child-Protection-Restricted: Allowed
+```
 
 
 
