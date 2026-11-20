@@ -321,7 +321,73 @@ Microsoft Purview portal
 → Information Protection
 → Sensitivity labels
 ```
+### INGO - Public
 
+| Setting | Configuration |
+|---|---|
+| Display name | Public |
+| Color | Green |
+| Description | Approved for public release. Confirm management or Communications approval. |
+| Scope | Files and other data assets; Emails |
+| Encryption | None |
+| Content marking | Footer: `CRCD Myanmar | PUBLIC` |
+
+### INGO - Internal
+
+| Setting | Configuration |
+|---|---|
+| Display name | Internal |
+| Color | Blue |
+| Description | For staff and approved internal collaboration. External sharing requires approval. |
+| Scope | Files and other data assets; Emails |
+| Encryption | None during the pilot |
+| Content marking | Footer: `CRCD Myanmar | INTERNAL USE ONLY` |
+
+Do not encrypt every Internal document. Excessive encryption can disrupt collaboration, search, automation, and partner workflows.
+
+### INGO - Confidential
+
+| Setting | Configuration |
+|---|---|
+| Display name | Confidential |
+| Color | Orange |
+| Description | Personal, program, financial, donor, or HR information requiring controlled access. |
+| Scope | Files and other data assets; Emails |
+| Encryption | Assign permissions to `A-MEAL-Team`, `A-Finance-Team`, and `A-Data-Protection` |
+| Content marking | Header: `CONFIDENTIAL`; footer: `CRCD Myanmar | AUTHORIZED USE ONLY`; watermark: `CONFIDENTIAL` |
+| Offline access | Recommended: 7 days |
+
+Authorized users should retain normal operational editing rights during the pilot.
+
+### INGO - Highly Confidential
+
+| Setting | Configuration |
+|---|---|
+| Display name | Highly Confidential |
+| Color | Red |
+| Description | Strictly restricted information that could cause serious harm if disclosed. |
+| Scope | Files and other data assets; Emails |
+| Encryption | Assign permissions only to `A-Child-Protection` and `A-Data-Protection` |
+| Content marking | Header: `HIGHLY CONFIDENTIAL`; footer: `CRCD Myanmar | RESTRICTED ACCESS`; watermark: `HIGHLY CONFIDENTIAL` |
+| Offline access | Recommended: 1 day, or never if operationally acceptable |
+
+Do not authorize all employees or the complete pilot group.
+
+## Step 10: Verify label priority
+
+Order the labels from lowest to highest sensitivity:
+
+| Priority | Label | Meaning |
+|---|---|---|
+| Lowest | INGO - Public | Approved for public use |
+| 1 | INGO - Internal | Routine internal information |
+| 2 | INGO - Confidential | Controlled operational information |
+| 3 | INGO - Highly Confidential | Strictly restricted information |
+
+<img width="768" height="401" alt="image" src="https://github.com/user-attachments/assets/c73759ef-00e7-407a-a45d-8ed39dab8e09" />
+
+
+The most restrictive label must have the highest priority.
 
 
 
