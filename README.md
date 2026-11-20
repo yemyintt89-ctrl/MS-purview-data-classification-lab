@@ -229,6 +229,26 @@ For Confidential libraries, stop permission inheritance and remove the general p
 <img width="766" height="428" alt="image" src="https://github.com/user-attachments/assets/bc2af734-12fc-42c0-a891-2e4f0932458a" />
 <img width="723" height="353" alt="image" src="https://github.com/user-attachments/assets/c1f41d1f-d227-4b1b-9a01-d7b5ef23bf85" />
 
+## Step 7: Create synthetic test files
+
+Create the following demonstration files and upload in respective libraries: 
+
+| File | SharePoint library | Future label |
+|---|---|---|
+| `Annual Impact Report 2026.docx` | `01-Publications` | Public |
+| `Staff Travel Procedure.docx` | `02-Internal-Operations` | Internal |
+| `Household Monitoring Dataset.xlsx` | `03-Program-Confidential` | Confidential |
+| `Approved Budget.xlsx` | `04-Finance-Confidential` | Confidential |
+| `Child Protection Case Summary.docx` | `05-Child-Protection-Restricted` | Highly Confidential |
+
+<img width="587" height="258" alt="image" src="https://github.com/user-attachments/assets/dc64be81-34f0-4fd4-9b4d-37565b314e94" />
+<img width="485" height="253" alt="image" src="https://github.com/user-attachments/assets/22c8c8da-7072-4999-a8f3-5f7502f81cf1" />
+<img width="491" height="250" alt="image" src="https://github.com/user-attachments/assets/e95e8fbe-31f2-47f2-a9ad-88d38f77558f" />
+<img width="479" height="254" alt="image" src="https://github.com/user-attachments/assets/836b0e82-9cc5-40f8-b9df-b2348bac0e12" />
+<img width="477" height="253" alt="image" src="https://github.com/user-attachments/assets/847f0878-f734-4a49-8d26-1e20f2a3bb58" />
+
+
+
 
 
 
