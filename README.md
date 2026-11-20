@@ -312,7 +312,15 @@ Expected access:
 04-Finance-Confidential: Denied
 05-Child-Protection-Restricted: Allowed
 ```
+## Step 9: Create the sensitivity labels in Microsoft Purview
 
+Navigate to:
+```text
+Microsoft Purview portal
+→ Solutions
+→ Information Protection
+→ Sensitivity labels
+```
 
 
 
