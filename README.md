@@ -389,6 +389,20 @@ Order the labels from lowest to highest sensitivity:
 
 The most restrictive label must have the highest priority.
 
+## Step 11: Publish the labels
+
+Create a publishing policy with these settings:
+
+```text
+Policy name: POL-INGO-Purview-Pilot-Labels
+Target: SG-Purview-Pilot-Users only
+Default document label: INGO - Internal
+Default email label: INGO - Internal
+Require users to apply a label: Enabled
+Justification to remove a label: Enabled
+Justification to lower classification: Enabled
+```
+
 
 
 
