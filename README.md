@@ -271,7 +271,7 @@ Create the following demonstration files and upload in respective libraries:
 <img width="479" height="254" alt="image" src="https://github.com/user-attachments/assets/836b0e82-9cc5-40f8-b9df-b2348bac0e12" />
 <img width="477" height="253" alt="image" src="https://github.com/user-attachments/assets/847f0878-f734-4a49-8d26-1e20f2a3bb58" />
 
-## Validation tests
+## Step 8: Validation tests
 
 ### Field Officer
 Expected access:
@@ -391,8 +391,6 @@ Order the labels from lowest to highest sensitivity:
 | 3 | INGO - Highly Confidential | Strictly restricted information |
 
 <img width="768" height="401" alt="image" src="https://github.com/user-attachments/assets/c73759ef-00e7-407a-a45d-8ed39dab8e09" />
-
-
 The most restrictive label must have the highest priority.
 
 ## Step 11: Publish the labels
@@ -407,10 +405,29 @@ Default email label: None
 Require users to apply a label: Enabled
 Justification to remove a label or lower its justification : Enabled
 ```
-
 <img width="699" height="417" alt="image" src="https://github.com/user-attachments/assets/77ed6237-a33e-41b1-974c-b8d7187eb36d" />
-
 <b>Label and policy changes can take several hours and, in some cases, up to 24 hours to appear. Sign out and reopen Office applications before troubleshooting. Do not repeatedly recreate labels.</b>
+
+## Step 12: Run manual-label tests
+### Public document test
+1. Sign in as the MEAL Manager.
+2. Open `Annual Impact Report 2026.docx`.
+3. Apply **Public**.
+4. Confirm the Public footer appears.
+   <img width="953" height="398" alt="image" src="https://github.com/user-attachments/assets/8ae466ee-86c2-4d4b-879f-c1bb06344c33" />
+6. Save, close, and reopen the file.
+7. Download the file and confirm the label remains.
+<img width="547" height="407" alt="image" src="https://github.com/user-attachments/assets/81effd88-0104-446e-befe-6622fb2c09c6" />
+<b>Expected result: Public footer and no encryption.</b>
+
+### Internal document test
+1. Open `Staff Travel Procedure.docx`.
+2. Apply **Internal**.
+3. Confirm the Internal footer appears.
+4. Verify that pilot users can continue editing the file.
+<img width="950" height="451" alt="image" src="https://github.com/user-attachments/assets/e83bd715-70ae-4690-85ac-6869c7cad7d3" />
+<b>Expected result: Internal marking and normal pilot-user collaboration.</b>
+
 
 
 
