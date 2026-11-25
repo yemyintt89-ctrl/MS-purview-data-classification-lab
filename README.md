@@ -357,7 +357,7 @@ Do not encrypt every Internal document. Excessive encryption can disrupt collabo
 | Items | Control Access | Apply content marking |
 | Encryption | Assign permissions to `MEAL-Manager`, `MEAL-Officer`, `Finance-Manager`, `Purview-Admin` |
 | Content marking | Header: `CONFIDENTIAL`; footer: `CRCD Myanmar | AUTHORIZED USE ONLY`; watermark: `CONFIDENTIAL` |
-| Offline access | Recommended: 7 days |
+| Offline access | Recommended: Never |
 <img width="309" height="357" alt="image" src="https://github.com/user-attachments/assets/3fd992d8-e71d-478b-92aa-596985ea5236" />
 
 Authorized users should retain normal operational editing rights during the pilot. 
@@ -460,11 +460,11 @@ Expected result: Confidential marking, persistent encryption, and authorized MEA
 
 ### File-level protection test
 
-1. As the Child Protection Manager, copy the labeled synthetic document to a temporary test location accessible to the Field Officer.
+1. As the Child Protection Manager, copy the 'Child Protection Case Summary.docx' to a 02-Internal-Operations Library which accessible to the Field Officer.
 2. Sign in as the Field Officer.
 3. Attempt to open it.
 <img width="950" height="553" alt="image" src="https://github.com/user-attachments/assets/5e5ca5c9-bcc0-402d-afc8-324929d3d3ae" />
-Expected result: Access is denied or restricted because the Field Officer is not included in the encryption permissions.
+<b>Expected result: Access is denied or restricted because the Field Officer is not included in the encryption permissions.</b>
 
 
 
