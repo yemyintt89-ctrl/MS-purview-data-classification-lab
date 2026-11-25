@@ -466,6 +466,19 @@ Expected result: Confidential marking, persistent encryption, and authorized MEA
 <img width="950" height="553" alt="image" src="https://github.com/user-attachments/assets/5e5ca5c9-bcc0-402d-afc8-324929d3d3ae" />
 <b>Expected result: Access is denied or restricted because the Field Officer is not included in the encryption permissions.</b>
 
+## Important limitations
+
+- Microsoft 365 E5 Developer is a test sandbox, not a client production environment.
+- Feature availability depends on licenses, service plans, roles, and tenant configuration.
+- Label and policy propagation is not immediate.
+- Content marking behavior varies between Word, Excel, PowerPoint, Outlook, and PDF.
+- Microsoft Purview supports data-protection controls but does not automatically make an organization compliant with every donor, policy, or legal requirement.
+- 
+## Author
+
+**Ye Myint Thu**  
+B.C.Tech | ITIL 
+
 
 
 
