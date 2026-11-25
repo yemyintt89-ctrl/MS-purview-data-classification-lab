@@ -394,14 +394,16 @@ The most restrictive label must have the highest priority.
 Create a publishing policy with these settings:
 
 ```text
-Policy name: POL-INGO-Purview-Pilot-Labels
-Target: SG-Purview-Pilot-Users only
-Default document label: INGO - Internal
-Default email label: INGO - Internal
+Policy name: POL-A-Data Classified-Purview
+Publish to users and group: A-Purview-Pilot-Users only
+Default document label: None
+Default email label: None
 Require users to apply a label: Enabled
-Justification to remove a label: Enabled
-Justification to lower classification: Enabled
+Justification to remove a label or lower its justification : Enabled
 ```
+
+<img width="699" height="417" alt="image" src="https://github.com/user-attachments/assets/77ed6237-a33e-41b1-974c-b8d7187eb36d" />
+
 
 
 
