@@ -325,7 +325,7 @@ Microsoft Purview portal
 
 | Setting | Configuration |
 |---|---|
-| Display name | Public |
+| Display name | INGO - Public |
 | Color | Green |
 | Description | Approved for public release. Confirm management or Communications approval. |
 | Scope | Files and other data assets; Emails |
@@ -336,7 +336,7 @@ Microsoft Purview portal
 
 | Setting | Configuration |
 |---|---|
-| Display name | Internal |
+| Display name | INGO - Internal |
 | Color | Blue |
 | Description | For staff and approved internal collaboration. External sharing requires approval. |
 | Scope | Files and other data assets; Emails |
@@ -349,7 +349,7 @@ Do not encrypt every Internal document. Excessive encryption can disrupt collabo
 
 | Setting | Configuration |
 |---|---|
-| Display name | Confidential |
+| Display name | INGO - Confidential |
 | Color | Orange |
 | Priority | 2 |
 | Description | Contains personal, program, financial, donor or HR information. Share only with authorized staff and approved recipients. |
@@ -366,7 +366,7 @@ Authorized users should retain normal operational editing rights during the pilo
 
 | Setting | Configuration |
 |---|---|
-| Display name | Highly Confidential |
+| Display name | INGO - Highly Confidential |
 | Color | Red |
 | Description | Strictly restricted information that could cause serious harm if disclosed. |
 | Scope | Files and other data assets; Emails |
