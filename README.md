@@ -430,14 +430,34 @@ Justification to remove a label or lower its justification : Enabled
 
 ### Confidential document test
 1. Sign in as the MEAL Officer.
-2. Open `Household Monitoring Dataset.xlsx` in `03-Program-Confidential`.
+2. Open `Household Monitoring Dataset.docx` in `03-Program-Confidential`.
 3. Apply **Confidential**.
 4. Save and reopen it.
 5. Confirm that the authorized MEAL users can open it.
+   
 <img width="931" height="107" alt="image" src="https://github.com/user-attachments/assets/e6400ab5-82f9-4d45-b687-669478a5de4f" />
 <img width="917" height="109" alt="image" src="https://github.com/user-attachments/assets/731ff620-6585-4fc0-806d-ecbcc997a4d5" />
+
 7. Download it and confirm the label and encryption remain.
+
 Expected result: Confidential marking, persistent encryption, and authorized MEAL access.
+
+### Highly Confidential document test
+
+1. Sign in as the Child Protection Manager.
+2. Open `Child Protection Case Summary.docx`.
+3. Apply **Highly Confidential**.
+4. Confirm its header, footer, or watermark.
+   
+<img width="930" height="407" alt="image" src="https://github.com/user-attachments/assets/2e1148a6-9228-455b-a2b5-d5e400901f8f" />
+
+6. Close and reopen it.
+7. Download a copy for the file-level access test.
+
+<img width="947" height="525" alt="image" src="https://github.com/user-attachments/assets/d2eb64b9-7684-4974-8849-d93b1f2060db" />
+
+<b>Expected result: Persistent marking and access for approved Child Protection users.</b>
+
 
 
 
