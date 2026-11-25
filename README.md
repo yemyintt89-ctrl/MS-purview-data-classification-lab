@@ -458,6 +458,13 @@ Expected result: Confidential marking, persistent encryption, and authorized MEA
 
 <b>Expected result: Persistent marking and access for approved Child Protection users.</b>
 
+### File-level protection test
+
+1. As the Child Protection Manager, copy the labeled synthetic document to a temporary test location accessible to the Field Officer.
+2. Sign in as the Field Officer.
+3. Attempt to open it.
+<img width="950" height="553" alt="image" src="https://github.com/user-attachments/assets/5e5ca5c9-bcc0-402d-afc8-324929d3d3ae" />
+Expected result: Access is denied or restricted because the Field Officer is not included in the encryption permissions.
 
 
 
