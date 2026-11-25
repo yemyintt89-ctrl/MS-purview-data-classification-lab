@@ -1,4 +1,4 @@
-# Microsoft Purview Data Protection Lab for Local NGOs and INGOs
+# Microsoft Purview Data Protection Lab for small and medium NGOs
 
 **Microsoft Purview**, **Microsoft 365**, **SharePoint Online**, and **Microsoft Entra ID**
 
@@ -351,13 +351,16 @@ Do not encrypt every Internal document. Excessive encryption can disrupt collabo
 |---|---|
 | Display name | Confidential |
 | Color | Orange |
-| Description | Personal, program, financial, donor, or HR information requiring controlled access. |
+| Priority | 2 |
+| Description | Contains personal, program, financial, donor or HR information. Share only with authorized staff and approved recipients. |
 | Scope | Files and other data assets; Emails |
-| Encryption | Assign permissions to `A-MEAL-Team`, `A-Finance-Team`, and `A-Data-Protection` |
+| Items | Control Access | Apply content marking |
+| Encryption | Assign permissions to `MEAL-Manager`, `MEAL-Officer`, `Finance-Manager`, `Purview-Admin` |
 | Content marking | Header: `CONFIDENTIAL`; footer: `CRCD Myanmar | AUTHORIZED USE ONLY`; watermark: `CONFIDENTIAL` |
 | Offline access | Recommended: 7 days |
+<img width="309" height="357" alt="image" src="https://github.com/user-attachments/assets/3fd992d8-e71d-478b-92aa-596985ea5236" />
 
-Authorized users should retain normal operational editing rights during the pilot.
+Authorized users should retain normal operational editing rights during the pilot. 
 
 ### INGO - Highly Confidential
 
@@ -367,9 +370,12 @@ Authorized users should retain normal operational editing rights during the pilo
 | Color | Red |
 | Description | Strictly restricted information that could cause serious harm if disclosed. |
 | Scope | Files and other data assets; Emails |
-| Encryption | Assign permissions only to `A-Child-Protection` and `A-Data-Protection` |
+| Items | Control Access | Apply content marking |
+| Encryption | Assign permissions only to `CP Manager` and `Purview-Admin` |
 | Content marking | Header: `HIGHLY CONFIDENTIAL`; footer: `CRCD Myanmar | RESTRICTED ACCESS`; watermark: `HIGHLY CONFIDENTIAL` |
-| Offline access | Recommended: 1 day, or never if operationally acceptable |
+| Offline access | Recommended: Never|
+
+<img width="308" height="359" alt="image" src="https://github.com/user-attachments/assets/e57437b6-45e1-4e23-85e0-ec1166103d01" />
 
 Do not authorize all employees or the complete pilot group.
 
@@ -403,6 +409,9 @@ Justification to remove a label or lower its justification : Enabled
 ```
 
 <img width="699" height="417" alt="image" src="https://github.com/user-attachments/assets/77ed6237-a33e-41b1-974c-b8d7187eb36d" />
+
+<b>Label and policy changes can take several hours and, in some cases, up to 24 hours to appear. Sign out and reopen Office applications before troubleshooting. Do not repeatedly recreate labels.</b>
+
 
 
 
