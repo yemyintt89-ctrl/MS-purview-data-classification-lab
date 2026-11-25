@@ -261,13 +261,13 @@ Create the following demonstration files and upload in respective libraries:
 |---|---|---|
 | `Annual Impact Report 2026.docx` | `01-Publications` | Public |
 | `Staff Travel Procedure.docx` | `02-Internal-Operations` | Internal |
-| `Household Monitoring Dataset.xlsx` | `03-Program-Confidential` | Confidential |
+| `Household Monitoring Dataset.docx` | `03-Program-Confidential` | Confidential |
 | `Approved Budget.xlsx` | `04-Finance-Confidential` | Confidential |
 | `Child Protection Case Summary.docx` | `05-Child-Protection-Restricted` | Highly Confidential |
 
 <img width="587" height="258" alt="image" src="https://github.com/user-attachments/assets/dc64be81-34f0-4fd4-9b4d-37565b314e94" />
 <img width="485" height="253" alt="image" src="https://github.com/user-attachments/assets/22c8c8da-7072-4999-a8f3-5f7502f81cf1" />
-<img width="491" height="250" alt="image" src="https://github.com/user-attachments/assets/e95e8fbe-31f2-47f2-a9ad-88d38f77558f" />
+<img width="777" height="374" alt="image" src="https://github.com/user-attachments/assets/f0c64ff7-a973-48ee-8288-89bb0ab1d9f4" />
 <img width="479" height="254" alt="image" src="https://github.com/user-attachments/assets/836b0e82-9cc5-40f8-b9df-b2348bac0e12" />
 <img width="477" height="253" alt="image" src="https://github.com/user-attachments/assets/847f0878-f734-4a49-8d26-1e20f2a3bb58" />
 
@@ -428,7 +428,16 @@ Justification to remove a label or lower its justification : Enabled
 <img width="950" height="451" alt="image" src="https://github.com/user-attachments/assets/e83bd715-70ae-4690-85ac-6869c7cad7d3" />
 <b>Expected result: Internal marking and normal pilot-user collaboration.</b>
 
-
+### Confidential document test
+1. Sign in as the MEAL Officer.
+2. Open `Household Monitoring Dataset.xlsx` in `03-Program-Confidential`.
+3. Apply **Confidential**.
+4. Save and reopen it.
+5. Confirm that the authorized MEAL users can open it.
+<img width="931" height="107" alt="image" src="https://github.com/user-attachments/assets/e6400ab5-82f9-4d45-b687-669478a5de4f" />
+<img width="917" height="109" alt="image" src="https://github.com/user-attachments/assets/731ff620-6585-4fc0-806d-ecbcc997a4d5" />
+7. Download it and confirm the label and encryption remain.
+Expected result: Confidential marking, persistent encryption, and authorized MEAL access.
 
 
 
