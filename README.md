@@ -10,8 +10,8 @@
 - [Prerequisites](#Prerequisites)
 - [Lab architecture](#Lab-architecture)
 - [Core design principle](#Core-design-principle)
-- Data Classification Model
-- Lab Implementation
+- [Data Classification model](#Data-Classification-model)
+- [Lab Implementation](#Lab-Implementation)
   - Step 1: Confirm the E5 Developer subscription
   - Step 2: Create a dedicated Purview administrator
   - Step 3: Create five pilot users
@@ -24,9 +24,10 @@
   - Step 10: Verify label priority
   - Step 11: Publish the labels
   - Step 12: Validate Protection Testing
-- Important Limitations
-- Acknowledgments
-- Author
+- [Key Learning Outcomes](#Key-Learning-Outcomes)
+- [Important limitations](#Important-limitations)
+- [Acknowledgement](#Acknowledgement)
+- [Author](#Author)
   
 ## Project overview
 
