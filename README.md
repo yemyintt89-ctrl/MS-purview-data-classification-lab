@@ -7,7 +7,7 @@
 ## Table of Contents
 
 - [Project overview](#Project-overview)
-- Prerequisites
+- [Prerequisites](#Prerequisites)
 - Lab Architecture
 - Core Design Principle
 - Data Classification Model
