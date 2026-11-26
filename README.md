@@ -12,7 +12,7 @@
 - [Core design principle](#Core-design-principle)
 - [Data Classification model](#Data-Classification-model)
 - [Lab Implementation](#Lab-Implementation)
-  - [Step 1: Confirm the E5 Developer subscription](#Step-1:-Confirm-the-E5-Developer-subscription)
+  - [Step 1: Confirm the E5 Developer subscription](#Step-1-:-Confirm-the-E5-Developer-subscription)
   - Step 2: Create a dedicated Purview administrator
   - Step 3: Create five pilot users
   - Step 4: Create the security groups
