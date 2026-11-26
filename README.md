@@ -406,6 +406,7 @@ Require users to apply a label: Enabled
 Justification to remove a label or lower its justification : Enabled
 ```
 <img width="699" height="417" alt="image" src="https://github.com/user-attachments/assets/77ed6237-a33e-41b1-974c-b8d7187eb36d" />
+
 <b>Label and policy changes can take several hours and, in some cases, up to 24 hours to appear. Sign out and reopen Office applications before troubleshooting. Do not repeatedly recreate labels.</b>
 
 ## Step 12: Run manual-label tests
@@ -429,16 +430,16 @@ Justification to remove a label or lower its justification : Enabled
 <b>Expected result: Internal marking and normal pilot-user collaboration.</b>
 
 ### Confidential document test
-1. Sign in as the MEAL Officer.
+1. Sign in as the MEAL Manager.
 2. Open `Household Monitoring Dataset.docx` in `03-Program-Confidential`.
 3. Apply **Confidential**.
 4. Save and reopen it.
 5. Confirm that the authorized MEAL users can open it.
-   
-<img width="931" height="107" alt="image" src="https://github.com/user-attachments/assets/e6400ab5-82f9-4d45-b687-669478a5de4f" />
-<img width="917" height="109" alt="image" src="https://github.com/user-attachments/assets/731ff620-6585-4fc0-806d-ecbcc997a4d5" />
+<img width="952" height="292" alt="image" src="https://github.com/user-attachments/assets/b723578f-7687-46de-840c-752a8d7154e3" />
 
 7. Download it and confirm the label and encryption remain.
+
+<img width="1920" height="1095" alt="Untitled" src="https://github.com/user-attachments/assets/876fd9a9-6196-4581-bd40-f3769b6af227" />
 
 Expected result: Confidential marking, persistent encryption, and authorized MEAL access.
 
@@ -473,7 +474,15 @@ Expected result: Confidential marking, persistent encryption, and authorized MEA
 - Label and policy propagation is not immediate.
 - Content marking behavior varies between Word, Excel, PowerPoint, Outlook, and PDF.
 - Microsoft Purview supports data-protection controls but does not automatically make an organization compliant with every donor, policy, or legal requirement.
-- 
+
+## Acknowledgement
+
+This project was built as part of my cloud security and compliance learning portfolio. 
+
+Microsoft Copilot (AI) was used as a supporting reference tool for lab planning, documentation drafting, technical explanations, and content refinement.
+
+All configuration, testing, validation, and implementation activities were performed by the author.
+  
 ## Author
 
 **Ye Myint Thu**  
