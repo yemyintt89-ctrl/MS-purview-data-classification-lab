@@ -31,16 +31,29 @@
   
 ## Project overview
 
-Humanitarian and development organizations handle information that can cause significant harm if it is disclosed, changed, lost, or shared with the wrong person. This lab demonstrates a practical information-protection model for program, beneficiary, HR, finance, donor, child-protection, and public communications data.
+As humanitarian and development organizations increasingly adopt cloud-based collaboration platforms, protecting sensitive information has become a critical business requirement. Organizations must balance the need for efficient information sharing with the responsibility to safeguard beneficiary data, employee records, financial information, donor documentation, and safeguarding-related content.
 
-The fictional organization used in this project is:
+This project presents a practical Microsoft Purview Information Protection implementation for a fictional NGO, Community Resilience and Child Development Myanmar (CRCD Myanmar), operating within a Microsoft 365 environment. The objective is to establish a structured data classification and protection framework that enables staff to collaborate securely while reducing the risk of unauthorized access, accidental disclosure, and data loss.
+
+The solution was designed around common NGO business functions, including Program Quality and MEAL, Finance, Child Protection, and Data Protection. Role-based security groups were established to align access permissions with business responsibilities, while Microsoft Purview Sensitivity Labels were used to classify and protect information according to its level of sensitivity.
+
+By implementing a four-tier data classification model (Public, Internal, Confidential, and Highly Confidential), the project demonstrates how organizations can strengthen information governance, improve compliance, and support secure digital collaboration across teams.
+
+###Environment Summary
 ```text
 Organization: Community Resilience and Child Development Myanmar
 Short name: CRCD Myanmar
 Sector: Local humanitarian and development NGO
-Environment: Microsoft 365 E5 Developer sandbox
-Demo users: 5
+Pilot Users: 5
+Solution Area: Microsoft Purview Information Protection
 ```
+###Business Objectives
+    - Establish a clear information classification framework
+    - Protect sensitive organizational and beneficiary data
+    - Apply role-based access control aligned with business functions.
+    - Demonstrate Microsoft Purview sensitivity labeling capabilities.
+    - Support information governance and compliance requirements
+    - Reduce the risk of data leakage and unauthorized information sharing. 
 
 The project is designed as a **technical portfolio lab** and a **client demonstration package** for local NGO and INGO environments.
 
