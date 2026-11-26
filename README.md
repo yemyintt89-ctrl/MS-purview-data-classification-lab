@@ -3,6 +3,31 @@
 **Microsoft Purview**, **Microsoft 365**, **SharePoint Online**, and **Microsoft Entra ID**
 
 > **Lab use only:** This project uses fictional staff, synthetic identifiers, and demonstration files. Do not upload real beneficiary, child-protection, safeguarding, employee, health, identity, financial, password, token, or client information.
+
+## Table of Contents
+
+- Project Overview
+- Prerequisites
+- Lab Architecture
+- Core Design Principle
+- Data Classification Model
+- Lab Implementation
+  - Step 1: Confirm the E5 Developer subscription
+  - Step 2: Create a dedicated Purview administrator
+  - Step 3: Create five pilot users
+  - Step 4: Create the security groups
+  - Step 5: Create the SharePoint demo site
+  - Step 6: Create the document libraries
+  - Step 7: Create synthetic test files
+  - Step 8: Validation libraries access
+  - Step 9: Create the sensitivity labels in Microsoft Purview
+  - Step 10: Verify label priority
+  - Step 11: Publish the labels
+  - Step 12: Validate Protection Testing
+- Important Limitations
+- Acknowledgments
+- Author
+  
 ## Project overview
 
 Humanitarian and development organizations handle information that can cause significant harm if it is disclosed, changed, lost, or shared with the wrong person. This lab demonstrates a practical information-protection model for program, beneficiary, HR, finance, donor, child-protection, and public communications data.
@@ -76,7 +101,8 @@ Both controls are required. A restricted SharePoint library alone does not provi
 | **Confidential** | Beneficiary datasets, donor budgets, HR and finance working files | Encryption for approved operational groups |
 | **Highly Confidential** | Child protection, safeguarding, health, investigation, identity data | Strict group-based encryption and short offline access |
 
-# Step 1: Confirm the E5 Developer subscription
+# Lab Implementation
+## Step 1: Confirm the E5 Developer subscription
 Open:
 
 ```text
@@ -409,7 +435,7 @@ Justification to remove a label or lower its justification : Enabled
 
 <b>Label and policy changes can take several hours and, in some cases, up to 24 hours to appear. Sign out and reopen Office applications before troubleshooting. Do not repeatedly recreate labels.</b>
 
-## Step 12: Run manual-label tests
+## Step 12: Validate Protection Testing
 ### Public document test
 1. Sign in as the MEAL Manager.
 2. Open `Annual Impact Report 2026.docx`.
@@ -467,6 +493,18 @@ Expected result: Confidential marking, persistent encryption, and authorized MEA
 <img width="950" height="553" alt="image" src="https://github.com/user-attachments/assets/5e5ca5c9-bcc0-402d-afc8-324929d3d3ae" />
 <b>Expected result: Access is denied or restricted because the Field Officer is not included in the encryption permissions.</b>
 
+## Key Learning Outcomes
+Through this project I gained practical experience in: y
+- Microsoft Purview Information Protection
+- Sensitivity Label creating and publishing
+- Microsoft Entra ID users and security groups
+- SharePoint online permission management
+- Information classification frameworks
+- Encryption-based document protection
+- NGO information security governance
+- Microsoft 365 compliance administration 
+
+
 ## Important limitations
 
 - Microsoft 365 E5 Developer is a test sandbox, not a client production environment.
@@ -486,7 +524,15 @@ All configuration, testing, validation, and implementation activities were perfo
 ## Author
 
 **Ye Myint Thu**  
-B.C.Tech | ITIL 
+Bachelor of Computer Technology (B.C.Tech) | ITIL v5
+### Technical Areas
+- Microsoft 365 Administration
+- Microsoft Purview
+- Microsoft Entra ID
+- SharePoint Online
+- Information Protection
+- Data Protection and Compliance
+- Azure Administration 
 
 
 
