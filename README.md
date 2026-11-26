@@ -7,9 +7,9 @@
 ## Table of Contents
 
 - [Project overview](#Project-overview)
-- [Prerequisites](#Pre-requisites)
-- Lab Architecture
-- Core Design Principle
+- [Prerequisites](#Prerequisites)
+- [Lab architecture](#Lab-architecture)
+- [Core design principle](#Core-design-principle)
 - Data Classification Model
 - Lab Implementation
   - Step 1: Confirm the E5 Developer subscription
