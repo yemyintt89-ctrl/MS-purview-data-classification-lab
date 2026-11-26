@@ -417,8 +417,9 @@ Order the labels from lowest to highest sensitivity:
 | 2 | INGO - Confidential | Controlled operational information |
 | 3 | INGO - Highly Confidential | Strictly restricted information |
 
-<img width="768" height="401" alt="image" src="https://github.com/user-attachments/assets/c73759ef-00e7-407a-a45d-8ed39dab8e09" />
-The most restrictive label must have the highest priority.
+<img width="768" height="401" alt="image" src="https://github.com/user-attachments/assets/c73759ef-00e7-407a-a45d-8ed39dab8e09"/>
+
+<b>The most restrictive label must have the highest priority.</b>
 
 ## Step 11: Publish the labels
 
@@ -446,6 +447,7 @@ Justification to remove a label or lower its justification : Enabled
 6. Save, close, and reopen the file.
 7. Download the file and confirm the label remains.
 <img width="547" height="407" alt="image" src="https://github.com/user-attachments/assets/81effd88-0104-446e-befe-6622fb2c09c6" />
+
 <b>Expected result: Public footer and no encryption.</b>
 
 ### Internal document test
@@ -454,6 +456,7 @@ Justification to remove a label or lower its justification : Enabled
 3. Confirm the Internal footer appears.
 4. Verify that pilot users can continue editing the file.
 <img width="950" height="451" alt="image" src="https://github.com/user-attachments/assets/e83bd715-70ae-4690-85ac-6869c7cad7d3" />
+
 <b>Expected result: Internal marking and normal pilot-user collaboration.</b>
 
 ### Confidential document test
@@ -468,7 +471,7 @@ Justification to remove a label or lower its justification : Enabled
 
 <img width="1920" height="1095" alt="Untitled" src="https://github.com/user-attachments/assets/876fd9a9-6196-4581-bd40-f3769b6af227" />
 
-Expected result: Confidential marking, persistent encryption, and authorized MEAL access.
+<b>Expected result: Confidential marking, persistent encryption, and authorized MEAL access.</b>
 
 ### Highly Confidential document test
 
@@ -492,6 +495,7 @@ Expected result: Confidential marking, persistent encryption, and authorized MEA
 2. Sign in as the Field Officer.
 3. Attempt to open it.
 <img width="950" height="553" alt="image" src="https://github.com/user-attachments/assets/5e5ca5c9-bcc0-402d-afc8-324929d3d3ae" />
+
 <b>Expected result: Access is denied or restricted because the Field Officer is not included in the encryption permissions.</b>
 
 ## Key Learning Outcomes
