@@ -39,7 +39,7 @@ The solution was designed around common NGO business functions, including Progra
 
 By implementing a four-tier data classification model (Public, Internal, Confidential, and Highly Confidential), the project demonstrates how organizations can strengthen information governance, improve compliance, and support secure digital collaboration across teams.
 
-###Environment Summary
+### Environment Summary
 ```text
 Organization: Community Resilience and Child Development Myanmar
 Short name: CRCD Myanmar
@@ -47,7 +47,7 @@ Sector: Local humanitarian and development NGO
 Pilot Users: 5
 Solution Area: Microsoft Purview Information Protection
 ```
-###Business Objectives
+### Business Objectives
     - Establish a clear information classification framework
     - Protect sensitive organizational and beneficiary data
     - Apply role-based access control aligned with business functions.
