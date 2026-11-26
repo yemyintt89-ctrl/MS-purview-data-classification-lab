@@ -6,7 +6,7 @@
 
 ## Table of Contents
 
-- [Project overview](Project-overview)
+- [Project overview](#Project-overview)
 - Prerequisites
 - Lab Architecture
 - Core Design Principle
